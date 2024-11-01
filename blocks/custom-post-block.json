@@ -1,0 +1,44 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "the-permalinks-cascade/custom-post",
+	"version": "1.0.0",
+	"category": "the-permalinks-cascade",
+	"icon": "editor-ul",
+	"supports": {
+		"html": false,
+		"reusable": false,
+		"align": false
+	},
+	"textdomain": "the-permalinks-cascade",
+	"attributes": {
+        "post_slug": {
+			"type": "string",
+			"default": "none"
+		},
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+        "order_by": {
+			"type": "string",
+			"default": "post_title"
+		},
+        "hierarchical": {
+			"type": "boolean",
+			"default": true
+		},
+		"limit": {
+			"type": "string",
+			"default": "100"
+		},
+		"exclude": {
+			"type": "string",
+			"default": ""
+		},
+		"include_only": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "the-permalinks-cascade/taxonomy",
+	"version": "1.0.0",
+	"category": "the-permalinks-cascade",
+	"icon": "editor-ul",
+	"supports": {
+		"html": false,
+		"reusable": false,
+		"align": false
+	},
+	"textdomain": "the-permalinks-cascade",
+	"attributes": {
+        "taxonomy_slug": {
+			"type": "string",
+			"default": "category"
+		},
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+        "show_count": {
+			"type": "boolean",
+			"default": false
+		},
+        "order_by": {
+			"type": "string",
+			"default": "name"
+		},
+        "hierarchical": {
+			"type": "string",
+			"default": "1"
+		},
+		"limit": {
+			"type": "string",
+			"default": "100"
+		},
+		"exclude": {
+			"type": "string",
+			"default": ""
+		},
+		"include_only": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

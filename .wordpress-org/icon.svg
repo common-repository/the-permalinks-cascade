@@ -1,0 +1,23 @@
+<svg id="v4" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d75b00;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #552400;
+      }
+    </style>
+  </defs>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M192,16.652L256,127.5,192,238.348a172.031,172.031,0,0,0-128,0L0,127.5,64,16.652A160.075,160.075,0,0,0,128,30,160.076,160.076,0,0,0,192,16.652Z"/>
+  <path id="Rectangle_3_copy" data-name="Rectangle 3 copy" class="cls-2" d="M64,240a164.038,164.038,0,0,1,128,0q2-4,4-8a184.346,184.346,0,0,0-136,0Z"/>
+  <rect id="Rectangle_5_copy" data-name="Rectangle 5 copy" class="cls-3" x="63" y="153" width="130" height="24" rx="12" ry="12"/>
+  <rect class="cls-3" x="43" y="116" width="170" height="24" rx="12" ry="12"/>
+  <rect id="Rectangle_5_copy_2" data-name="Rectangle 5 copy 2" class="cls-3" x="63" y="79" width="130" height="24" rx="12" ry="12"/>
+  <path class="cls-2" d="M64,16a164,164,0,0,0,64,13,164,164,0,0,0,64-13l4,8a184.287,184.287,0,0,1-68,13A184.288,184.288,0,0,1,60,24Z"/>
+</svg>

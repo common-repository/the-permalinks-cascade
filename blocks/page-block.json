@@ -1,0 +1,62 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "the-permalinks-cascade/page",
+	"version": "1.0.0",
+	"category": "the-permalinks-cascade",
+	"icon": "editor-ul",
+	"supports": {
+		"html": false,
+		"reusable": false,
+		"align": false
+	},
+	"textdomain": "the-permalinks-cascade",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Pages"
+		},
+		"hierarchical": {
+			"type": "string",
+			"default": "1"
+		},
+		"order_by": {
+			"type": "string",
+			"default": "menu_order"
+		},
+		"exclude_children": {
+			"type": "boolean",
+			"default": false
+		},
+		"dehyperlink_parents": {
+			"type": "boolean",
+			"default": false
+		},
+		"dehyperlinking_level": {
+			"type": "string",
+			"default": "0"
+		},
+		"group_by_topic": {
+			"type": "boolean",
+			"default": false
+		},
+		"show_topicless": {
+			"type": "boolean",
+			"default": true
+		},
+		"limit": {
+			"type": "string",
+			"default": "100"
+		},
+		"exclude": {
+			"type": "string",
+			"default": ""
+		},
+		"include_only": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}
